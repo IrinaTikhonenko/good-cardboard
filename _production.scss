@@ -1,0 +1,47 @@
+.production {
+	padding-top: 87px;
+	padding-bottom: 95px;
+	&-slider {
+		&_top {
+			margin-bottom: 13px;
+			height: 377px;
+			overflow: hidden;
+		}
+		&_bottom {
+			padding-left: 30px;
+			padding-right: 30px;
+			height: 78px;
+			overflow: hidden;
+			img {
+				margin: 0 6px;
+			}
+		}
+	}
+	&-text {
+		max-width: 379px;
+		&__title {
+			position: relative;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 10%;
+			margin-left: -10%;
+			margin-top: 19px;
+			margin-bottom: 28px;
+			width: 110%;
+			z-index: -1;
+			background-color: $active-color;
+			color: $text-color-light;
+			font-size: 28px;
+			font-weight: 300;
+			line-height: 22px;	
+		}
+		&__descr {
+			width: 100%;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 24px;
+			text-align: justify;
+			color: $text-color-dark;
+		}
+	}
+}

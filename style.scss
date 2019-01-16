@@ -1,0 +1,68 @@
+body {
+	font-family: "Roboto", sans-serif;	
+}
+
+@font-face {
+ font-family: Roboto; 
+ src: url(fonts/Roboto-Regular.ttf);
+ font-weight: 400;
+}
+@font-face {
+ font-family: Roboto; 
+ src: url(fonts/Roboto-Light.ttf);
+ font-weight: 300;
+}
+@font-face {
+ font-family: Roboto; 
+ src: url(fonts/Roboto-Bold.ttf);
+ font-weight: 700;
+}
+@font-face {
+ font-family: Roboto; 
+ src: url(fonts/Roboto-Bold.ttf);
+ font-weight: 900;
+}
+
+@import "reset";
+@import "variables";
+@import "interface";
+@import "header";
+@import "main";
+@import "modal";
+@import "features";
+@import "products";
+@import "production";
+@import "clients";
+@import "feedback";
+@import "offer";
+@import "contacts";
+@import "footer";
+@import "media";
+
+
+
+/* @keyframes appeared {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 0.25;
+	}
+	20% {
+		opacity: 0.50;
+	}
+	30% {
+		opacity: 0.75;
+	}
+	// 40% {
+	// 	opacity: 1;
+	// }
+	100% { 
+		opacity: 1;
+		border: 1px solid black; 
+	}
+}
+.animate {
+	animation-name: appeared;
+	animation-direction: 3s;
+} */

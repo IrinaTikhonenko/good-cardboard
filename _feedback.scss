@@ -1,0 +1,15 @@
+.feedback {
+	padding-top: 55px;
+	padding-bottom: 66px;
+	background-color: $bg-color-light;
+	&-slider {
+		width: 940px;
+		padding-right: 30px;
+		padding-left: 30px;
+		margin: 0 auto;
+		img {
+			height: 100%;
+			margin: 14px;
+		}
+	}
+}

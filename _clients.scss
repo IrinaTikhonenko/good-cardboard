@@ -1,0 +1,127 @@
+.clients__img {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 33px;
+	margin-bottom: 61px;
+	&-1 {
+		background: url(img/clients/1-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/1-img_focus.jpg);
+		}
+	}
+	&-2 {
+		background: url(img/clients/2-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/2-img_focus.jpg);
+		}
+	}
+	&-3 {
+		background: url(img/clients/3-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/3-img_focus.jpg);
+		}
+	}
+	&-4 {
+		background: url(img/clients/4-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/4-img_focus.jpg);
+		}
+	}
+	&-5 {
+		background: url(img/clients/5-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/5-img_focus.jpg);
+		}
+	}
+	&-6 {
+		background: url(img/clients/6-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/6-img_focus.jpg);
+		}
+	}
+	&-7 {
+		background: url(img/clients/7-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/7-img_focus.jpg);
+		}
+	}
+	&-8 {
+		background: url(img/clients/8-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/8-img_focus.jpg);
+		}
+	}
+	&-9 {
+		background: url(img/clients/9-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/9-img_focus.jpg);
+		}
+	}
+	&-10 {
+		background: url(img/clients/10-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/10-img_focus.jpg);
+		}
+	}
+	&-11 {
+		background: url(img/clients/11-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/11-img_focus.jpg);
+		}
+	}
+	&-12 {
+		background: url(img/clients/12-img.jpg);
+		width: 212px;
+		height: 130px;
+		margin-right: 30px;
+		margin-bottom: 33px;
+		&:hover {
+			background: url(img/clients/12-img_focus.jpg);
+		}
+	}
+}

@@ -1,0 +1,158 @@
+.menu {
+	background-color: $text-color-dark;	
+ position: relative;
+ margin: 0 auto;
+ width: 100%;
+ z-index: 100;
+ &-navigation { 		
+		ul {
+			padding-top: 17px;
+			padding-bottom: 9px;
+			li {
+				display: inline;				
+				margin-left: 14px;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 22px;
+				text-transform: uppercase;
+				color: $text-color-light;			
+				a {
+					text-transform: uppercase;
+					color: $text-color-light;					
+				}
+				&:hover {
+					background-color: lighten($text-color-dark, 5);
+				}
+				&::before {					
+					content: "";
+					display: inline-block;
+					width: 1px;
+					height: 25px;
+					vertical-align: middle;
+					background: url(img/line-dot.png) center no-repeat;
+					margin-right: 13px;
+				}
+				&:first-child {
+					margin-left: 0;
+					&::before {
+
+						content: "";
+						background: transparent;
+					}
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+.fixed {
+	padding-bottom: 0;
+	display: block;
+	position: fixed;
+	top: 0;
+}
+.section {
+	&-title {
+		font-size: 27px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 29px;
+		&::after {
+			content: "";
+			margin-top: 12px;
+			display: block;
+			height: 6px;
+			background: url(img/line.png) center no-repeat;
+		}
+	}
+}
+.anchor { 
+position: relative; 
+top: -100px; 
+height: 1px; 
+display: block; 
+}
+
+.button {
+	font-size: 14px;
+	background-color: $active-color;
+	border: 1px solid transparent;
+	color: $text-color-light;
+	padding: 13px 22px;
+	border-radius: 5px;
+	&:hover {
+		background-color: lighten($active-color, 5);
+		cursor: pointer;
+	}
+	&-o {
+		background-color: transparent;
+		color: $text-color-dark;
+		border: 1px solid rgba(#373737, 0.5);
+		&:hover {
+			background-color: lighten($active-color, 5);
+			cursor: pointer;
+			border: 1px solid transparent;
+			color: $text-color-dark;
+		}
+	}
+	img {
+		vertical-align: middle;
+	}
+	&_big {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		vertical-align: middle;
+		width: 30%;
+	}
+}
+
+.slider-arrow {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 22px;
+	z-index: 99;
+	&_prod {
+		border: 1px solid $active-color;
+	}
+	&_feedback {
+		width: 26px;
+		height: 30%;
+		margin: 15% 0;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+	&_right {
+		right: 0;
+		background: url(img/arrow-right.png) center no-repeat;
+		&:hover {
+			background:$active-color url(img/arrow-right_active.png) center no-repeat;
+		}
+	}
+	&_left {
+		left: 0;
+		background: url(img/arrow-left.png) center no-repeat;
+		&:hover {
+			background:$active-color url(img/arrow-left_active.png) center no-repeat;
+		}
+	}
+}
+/* Затемнение фоновой картинки на главной экране */
+.dark-bg {
+position: relative;
+z-index: 2;
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -1;
+	}
+}
